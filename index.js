@@ -25,7 +25,7 @@ ldclient.once('ready', function() {
   //   }
   ldclient.allFlagsState(user, (err, flagsState) => {
     // this object can be converted to JSON or can be queried for flag values
-    console.log(flagsState)
+    console.log(JSON.stringify(flagsState))
   });
 
 
